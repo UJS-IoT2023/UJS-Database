@@ -1,0 +1,4 @@
+CREATE USER user_a WITH PASSWORD '123456';
+CREATE USER user_b WITH PASSWORD '123456';
+GRANT SELECT ON supplier_part_project TO user_a;
+GRANT SELECT, INSERT, UPDATE, DELETE ON supplier_part_project TO user_b;
