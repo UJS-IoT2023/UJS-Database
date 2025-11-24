@@ -5,7 +5,6 @@ INSERT INTO library (library_id, library_name, city, tel) VALUES
 ('L3', '北京图书馆', '北京', '282471'),
 ('L4', '武汉图书馆', '武汉', '812712'),
 ('L5', '南京图书馆', '南京', '328173');
-
 -- Insert into book
 INSERT INTO book (book_id, book_name, price) VALUES
 ('B1', '数据库原理', 9.80),
